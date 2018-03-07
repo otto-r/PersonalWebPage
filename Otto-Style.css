@@ -25,6 +25,18 @@
       text-align: center;
   }
 
+  #headButton{
+    border: 0px;
+    font-size: 1em;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+  }
+
+  #headButton:hover{
+    text-shadow: 1px 1px 10px black; ;
+  }
+
 .nav{
     text-align: center;
     text-decoration:none

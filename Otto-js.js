@@ -9,3 +9,8 @@ function changeBackground(string) {
         document.getElementById("1").style.backgroundImage = 'none';
     }
 }
+
+function hh(){
+    document.getElementById("1").style.backgroundColor = 'white';
+
+}
