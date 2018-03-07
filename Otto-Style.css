@@ -27,7 +27,7 @@
 
 .nav{
     text-align: center;
-
+    text-decoration:none
 }
 
   .wrapper > * {
@@ -81,7 +81,12 @@
     .linkimage:hover
     {
         background: white;
+        text-decoration:none
     }
+
+    a, a:visited, a:hover, a:active {
+      text-decoration:none;
+  }
 
     .placeholderLeft {
         float: right;
@@ -95,7 +100,7 @@
       .placeholderRight {
         float: left;
         /* clear: left; */
-        background: rgba(red, green, blue, 0);
+        /* background: rgba(red, green, blue, 0); */
         /* margin: 5px; */
         width: 50px;
         height: 50px;
